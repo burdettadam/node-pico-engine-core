@@ -9,7 +9,8 @@ var sub_modules = {
     http: require("./http"),
     keys: require("./keys"),
     meta: require("./meta"),
-    time: require("./time")
+    time: require("./time"),
+    gpio: require("./gpio")
 };
 
 module.exports = function(core){
