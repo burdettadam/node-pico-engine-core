@@ -10,7 +10,8 @@ var sub_modules = {
     keys: require("./keys"),
     meta: require("./meta"),
     time: require("./time"),
-    gpio: require("./gpio")
+    gpio: require("./gpio"),
+    playSound: require("./playSound")
 };
 
 module.exports = function(core){
